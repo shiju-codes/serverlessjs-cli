@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# build artifacts
+dist/
+.build/
+.temp/
+.cache/
+.nyc_output/
+coverage/
+.eslintcache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# logs
+logs/
+*.log
+
+# local env/config
+.env
+.env.local
+.env.*.local
+
+# misc
+*.tgz
+*.zip
